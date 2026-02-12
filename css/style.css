@@ -1,0 +1,66 @@
+:root {
+    --bg: #0f172a;
+    --card: #1e293b;
+    --text: white;
+    --primary: #6366f1;
+}
+
+body.light {
+    --bg: #f8fafc;
+    --card: white;
+    --text: #111827;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    transition: 0.3s;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+}
+
+.container {
+    display: grid;
+    gap: 20px;
+    padding: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.card {
+    background: var(--card);
+    padding: 25px;
+    border-radius: 15px;
+}
+
+input {
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    width: 70%;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    background: var(--primary);
+    color: white;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+}
