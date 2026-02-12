@@ -5,9 +5,7 @@ Designed to help students, developers, and professionals stay focused and organi
 
 🌐 Live Demo
 
-Add your GitHub Pages link here:
-
-https://yourusername.github.io/focusflow-productivity-dashboard/
+https://haseeb-mernstack.github.io/focusflow-productivity-dashboard/
 
 ✨ Features
 
